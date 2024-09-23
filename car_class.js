@@ -119,10 +119,10 @@ class Car{
 
 let car1= new Car('Toyota', 2019, 100, 'Corolla', 'Black', 20000);
 
-// console.log(car1.getDetails());
-// car1.setPrice(22000);
-// console.log(car1.getDetails());
+console.log(car1.getDetails());
+car1.setPrice(22000);
+console.log(car1.getDetails());
 
-// console.log(car1.getFuelLevel());
-// car1.drive(100);
-// console.log(car1.getFuelLevel());
+console.log(car1.getFuelLevel());
+car1.drive(100);
+console.log(car1.getFuelLevel());
