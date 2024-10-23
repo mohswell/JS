@@ -9,6 +9,7 @@ class Car{
         this.price= price; 
     }
 
+    // setters and getters for the variables
     getBrand()
     {
         return this.brand;
